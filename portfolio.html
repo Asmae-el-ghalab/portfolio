@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmae El Ghalab - Développeuse Portfolio</title>
+     <link rel="stylesheet" href="portfolio.css">
+   
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">Asmae EL GHALAB</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">A.E</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+             <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Bonjour, je suis <span class="name">Asmae El Ghalab</span></h1>
+                    <h2>Développeuse Full Stack</h2>
+                    <p>Je crée des expériences numériques exceptionnelles avec du code propre et des designs innovants.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-outline">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="imageA.png" alt="Asmae El Ghalab">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+      <!-- About Section -->
+<section id="about">
+    <div class="about-content">
+        <div class="about-text">
+            <h2 class="section-title">À propos de moi</h2>
+            <p>Étudiante en informatique, passionnée par le développement et les technologies digitales, je possède de solides bases en programmation web et une bonne maîtrise des concepts informatiques.</p>
+            <p>Sérieuse, motivée et dotée d'un bon esprit d'analyse, je suis curieuse, adaptable et capable d'apprendre rapidement afin de m'investir pleinement dans les missions qui me sont confiées.</p>
+            
+            <!-- Bouton de téléchargement du CV -->
+            <div class="cv-download">
+                <a href="c:\Users\hp\Downloads\Black and White Simple Corporate Resume (2).pdf" download="Black and White Simple Corporate Resume (2).pdf" class="btn-cv">
+                    <span class="cv-icon">📄</span>
+                    Télécharger mon CV
+                    <span class="download-icon">⬇️</span>
+                </a>
+            </div>
+        </div>
+          <div class="about-image">
+            <img src="imageB.jpg" alt="Asmae El Ghalab" class="profile-image">
+           
+        </div>
+       
+    </div>
+</section>
+         <!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <h2 class="section-title">Mes Compétences</h2>
+    <p class="skills-subtitle">Les technologies et outils que j’utilise dans mes projets.</p>
+
+    <div class="simple-skills-grid">
+        <div class="simple-skill-card">
+            <h3>Front-End</h3>
+            <p>HTML5, CSS3, JavaScript, React.js, Angular </p>
+        </div>
+
+        <div class="simple-skill-card">
+            <h3>Back-End</h3>
+            <p>PHP, Laravel, Python, Java ,spring boot </p>
+        </div>
+
+        <div class="simple-skill-card">
+            <h3>Bases de données</h3>
+            <p>MySQL, SQL Server, MongoDB</p>
+        </div>
+
+        <div class="simple-skill-card">
+            <h3>UI & Styling</h3>
+            <p>Bootstrap, Tailwind CSS, Responsive Design</p>
+        </div>
+
+        <div class="simple-skill-card">
+            <h3>Gestion des projets </h3>
+            <p>Agile, Scrum, Jira</p>
+        </div>
+
+        <div class="simple-skill-card">
+            <h3>Outils</h3>
+            <p>Git, GitHub, GitLab, Déploiement</p>
+        </div>
+    </div>
+</section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded dynamically with JavaScript -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Parlons de votre projet</h2>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>elghalbeasmae@gmail.com</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>0654627978</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>Rabat,Maroc </div>
+                        </div>
+                       <div class="contact-item">
+    <div class="contact-icon">🐙</div>
+    <a href="https://github.com/Asmae-el-ghalab" target="_blank" style="color: var(--text-light); text-decoration: none;">Asmae-el-ghalab</a>
+</div>
+                    </div>
+                </div>
+
+           <!-- Modifiez votre formulaire comme ceci -->
+       <!-- Ça marche sans configuration, sans JavaScript, immédiatement -->
+    <form class="contact-form" action="https://formsubmit.co/elghalbeasmae@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="box">
+    <input type="hidden" name="_subject" value="Nouveau message depuis mon portfolio">
+   
+
+    <div class="form-group">
+        <input type="text" name="Nom" placeholder="Votre nom" required>
+    </div>
+
+    <div class="form-group">
+        <input type="email" name="Email" placeholder="Votre email" required>
+    </div>
+
+    <div class="form-group">
+        <input type="text" name="Sujet" placeholder="Sujet" required>
+    </div>
+
+    <div class="form-group">
+        <textarea name="Message" placeholder="Votre message" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary" style="width: 100%;">
+        Envoyer
+    </button>
+</form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Asmae El Ghalab. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // Projects data
+        
+        // Loader
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 1500);
+        });
+
+        // Custom cursor
+        const cursor = document.getElementById('cursor');
+        
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+
+        // Add hover effect to interactive elements
+        const interactiveElements = document.querySelectorAll('a, button, .project-card, .skill-tag, .contact-item');
+        interactiveElements.forEach(el => {
+            el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
+            el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Load projects dynamically
+const projectsGrid = document.getElementById('projectsGrid');
+
+const mesProjets = [
+    {
+        title: "Commune de Rabat",
+        description: "Site web interne développé pour le service informatique de la Commune de Rabat pour la gestion des demandes d'autorisation avec interface administrateur.",
+        tech: ['Laravel', 'MySQL', 'JavaScript'],
+        imageUrl: 'app1.png',
+        githubUrl: 'https://github.com/Asmae-el-ghalab/autorisation-circulation.git'
+    },
+    {
+        title: "SmartMeal Planner",
+        description: " Logiciel de planification de repas sains développé en Python, permettant la gestion des recettes, la création et la sauvegarde de plans de repas, ainsi qu'une recherche avancée des recettes.",
+        tech: ['python'],
+        imageUrl: 'app-recette.png',
+        githubUrl: 'https://github.com/Asmae-el-ghalab/App-recette.git'
+    }
+    ,{
+        title: "borne electrique ",
+        description: "Développement d'une plateforme web de gestion des bornes de recharge pour véhicules électriques au Maroc. Le projet permet de localiser les bornes sur une carte interactive, consulter leur disponibilité, filtrer les stations selon plusieurs critères et gérer les données via un espace d'administration. Technologies utilisées : Spring Boot, Angular, MySQL et Python pour la collecte des données.",
+        tech: ['spring boot', 'MySQL', 'python','angular'],
+        imageUrl: 'borne.png',
+        githubUrl: 'https://github.com/Asmae-el-ghalab/electric-charging-pipeline.git'
+    }
+];
+
+projectsGrid.innerHTML = mesProjets.map(projet => {
+    const techSpans = projet.tech.map(tech => `<span>${tech}</span>`).join('');
+
+    return `
+        <div class="project-card">
+            <div class="project-image">
+                <img src="${projet.imageUrl}" alt="${projet.title}" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+
+            <div class="project-info">
+                <h3>${projet.title}</h3>
+                <p>${projet.description}</p>
+
+                <div class="project-tech">
+                    ${techSpans}
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="${projet.githubUrl}" target="_blank" class="project-link">Code source</a>
+            </div>
+        </div>
+    `;
+}).join('');
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+       
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections and elements that should animate
+        document.querySelectorAll('section, .stat-item, .project-card, .contact-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Active navigation link based on scroll position
+        const sections = document.querySelectorAll('section');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.style.color = link.getAttribute('href') === `#${current}` 
+                    ? 'var(--primary-color)' 
+                    : 'var(--text-light)';
+            });
+        });
+        // Gestion du téléchargement du CV avec feedback
+document.addEventListener('DOMContentLoaded', function() {
+    const cvButton = document.querySelector('.btn-cv');
+    
+    if (cvButton) {
+        cvButton.addEventListener('click', function(e) {
+            // Optionnel : Ajouter une classe pour l'animation de téléchargement
+            this.classList.add('downloading');
+            
+            // Simuler un petit délai avant de retirer l'animation
+            setTimeout(() => {
+                this.classList.remove('downloading');
+            }, 1000);
+            
+            // Le téléchargement se fera normalement grâce à l'attribut download
+            // Vous pouvez ajouter un message de confirmation si vous voulez
+            console.log('Téléchargement du CV en cours...');
+        });
+    }
+}); 
+
+
+    </script>
+</body>
+</html>
