@@ -1158,4 +1158,23 @@
         font-size: 0.8rem;
         padding: 0.35rem 0.7rem;
     }
+} 
+@media (max-width: 768px) {
+
+    .project-links {
+        position: static;
+        opacity: 1;
+        background: transparent;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px;
+    }
+
+    .project-link {
+        width: 100%;
+        text-align: center;
+    }
 }
