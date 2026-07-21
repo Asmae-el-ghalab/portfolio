@@ -1048,4 +1048,114 @@
         grid-template-columns: 1fr;  /* Une seule colonne sur mobile */
         justify-items: center;        /* Centre les cartes */
     }
+} 
+/* ==========================
+   RESPONSIVE - MES COMPÉTENCES
+========================== */
+
+/* Tablette */
+@media (max-width: 992px) {
+
+    .skills-section {
+        padding: 4rem 6%;
+    }
+
+    .simple-skills-grid,
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .simple-skill-card,
+    .skill-card {
+        padding: 1.5rem;
+    }
+
+    .skill-header h3,
+    .simple-skill-card h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .skills-section {
+        padding: 3rem 5%;
+    }
+
+    .skills-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .simple-skills-grid,
+    .skills-grid,
+    .skills-center {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 1.2rem;
+    }
+
+    .simple-skill-card,
+    .skill-card {
+        width: 100%;
+        padding: 1.3rem;
+    }
+
+    .skill-header {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .skill-header h3,
+    .simple-skill-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .skill-icon {
+        font-size: 1.6rem;
+    }
+
+    .skill-item .skill-tags {
+        justify-content: flex-start;
+    }
+
+    .skill-item .skill-tag {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+/* Petit téléphone */
+@media (max-width: 480px) {
+
+    .skills-section {
+        padding: 2.5rem 1rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .skills-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .simple-skill-card,
+    .skill-card {
+        padding: 1rem;
+        border-radius: 12px;
+    }
+
+    .skill-header h3,
+    .simple-skill-card h3 {
+        font-size: 1rem;
+    }
+
+    .skill-item .skill-tag {
+        font-size: 0.8rem;
+        padding: 0.35rem 0.7rem;
+    }
 }
